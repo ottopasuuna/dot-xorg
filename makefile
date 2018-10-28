@@ -1,3 +1,4 @@
+.PHONY: link unlink
 
 link:
 	ln -s $(PWD)/xinitrc $(HOME)/.xinitrc
