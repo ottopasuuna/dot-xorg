@@ -1,9 +1,9 @@
 .PHONY: link unlink
 
 link:
-	ln -s $(PWD)/xinitrc $(HOME)/.xinitrc
-	ln -s $(PWD)/Xmodmaprc $(HOME)/.Xmodmaprc
-	ln -s $(PWD)/Xresources $(HOME)/.Xresources
+	ln -s $(CURDIR)/xinitrc $(HOME)/.xinitrc
+	ln -s $(CURDIR)/Xmodmaprc $(HOME)/.Xmodmaprc
+	ln -s $(CURDIR)/Xresources $(HOME)/.Xresources
 
 unlink:
 	unlink $(HOME)/.xinitrc
