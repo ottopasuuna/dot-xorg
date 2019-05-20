@@ -9,8 +9,7 @@ xrdb -merge ~/.Xresources
 
 redshift &
 xscreensaver &
-owncloud &
-# export DISPLAY=:0.0
-ibus-daemon --xim -d
-cadence &
+# owncloud &
+# ibus-daemon --xim -d
+# cadence &
 exec awesome
