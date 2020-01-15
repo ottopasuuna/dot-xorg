@@ -12,6 +12,7 @@ xsetwacom set 15 MapToOutput 1920x1200+1280+0
 
 redshift &
 xscreensaver &
+sxhkd &
 # owncloud &
 # ibus-daemon --xim -d
 # cadence &
